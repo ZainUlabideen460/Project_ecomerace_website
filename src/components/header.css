@@ -1,0 +1,290 @@
+/* General styles */
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  padding-top: 120px;
+  
+}
+
+/* Header styles */
+.summer-text-main-div {
+  background-color: black;
+  color: white;
+  align-items: center;
+  margin-bottom: 2rem;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 1000;
+  
+  padding: 10px 20px;
+}
+
+.summer-text-main-div p {
+  margin: 0;
+  font-size: 14px;
+}
+
+.summer-text-main-div button {
+  background-color: #000;
+  color: #fff;
+  border: none;
+  padding: 5px 10px;
+  cursor: pointer;
+}
+
+.option-div-header select {
+  color: white;
+  background-color: #000;
+  padding: 5px;
+}
+
+
+
+.navbar-div-main {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  padding: 10px 20px;
+  background-color: #fff;
+  border-bottom: 1px solid #e3e3e3;
+  position: fixed;
+  
+  top: 40px;
+
+  width: 100%;
+  z-index: 999;
+  
+}
+
+.navbar-div-main .menu-icon {
+  display: none;
+}
+
+.navbar-div-main h1 {
+  margin: 0;
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.navbar-content {
+  display: flex;
+  align-items: center;
+}
+
+.navbar-content ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  gap: 20px;
+}
+
+.navbar-content ul li {
+  margin: 0;
+}
+
+.navbar-content ul li a {
+  text-decoration: none;
+  color: #000;
+  font-size: 16px;
+}
+
+.input-and-icons {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin-right: 3rem;
+
+}
+
+.input-and-search-div {
+  display: flex;
+  align-items: center;
+  border: 1px solid #e3e3e3;
+  padding: 5px;
+  margin-top: 10px;
+ 
+  background-color: rgb(223, 213, 213);
+  border-radius: 5px;
+
+}
+
+.input-and-search-div input {
+  background-color: rgb(223, 215, 215);
+  color: black;
+  border: none;
+  outline: none;
+ 
+}
+
+#img-user {
+  padding-top: 8px;
+}
+
+.input-and-search-div img {
+  width: 20px;
+  height: 20px;
+}
+
+.icone-card {
+  cursor: pointer;
+  position: relative;
+}
+
+.icone-card img {
+  width: 24px;
+  height: 24px;
+}
+
+.usre-div {
+  position: relative;
+  cursor: pointer;
+}
+
+.div-menu {
+  position: absolute;
+
+  top: 100%;
+  right: 0;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  border-radius: 4px;
+  display: none;
+}
+
+.usre-div:hover .div-menu {
+  display: block;
+}
+
+.div-menu ul {
+  height: 15rem;
+  width: 10rem;
+  border-radius: 5px;
+
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  background-color: #a35454;
+
+
+}
+
+.div-menu ul li {
+  display: flex;
+
+  
+  align-items: center;
+  gap: 10px;
+  padding-top: 0.3rem;
+  
+  margin-left: 0.5rem;
+}
+
+.div-menu ul li img {
+  width: 20px;
+  height: 20px;
+}
+
+.div-menu ul li a {
+  text-decoration: none;
+  color: #000;
+  font-size: 14px;
+}
+
+.hr-line {
+  margin: 0;
+  border: none;
+  border-top: 1px solid #e3e3e3;
+}
+
+/* Responsive styles */
+@media (max-width: 780px) {
+  .summer-text-main-div {
+    font-size: 10px;
+  }
+
+  .option-div-header {
+    display: none;
+  }
+
+  .navbar-div-main .menu-icon {
+    display: block;
+    position: fixed;
+    top: 50px;
+    
+    right: 20px;
+    z-index: 1000;
+  }
+
+  .navbar-content {
+    display: none;
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .navbar-content.open {
+    display: flex;
+    width: 100%;
+    background-color: #fff;
+    position: absolute;
+    top: 60px;
+    
+    left: 0;
+    padding: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+
+  .navbar-content ul {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 10px;
+  }
+
+  .input-and-icons {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 10px;
+    width: 100%;
+  }
+
+  .input-and-search-div {
+    width: 100%;
+  }
+}
+
+
+
+@media (max-width: 487px) {
+
+  .navbar-div-main,
+  .menu-icon {
+    margin-top: 0.5rem;
+  }
+
+  .navbar-div-main h1 {
+    font-size: 20px;
+  }
+
+  .summer-text-main-div {
+
+    font-size: 10px;
+  
+  }
+
+  .summer-text-main-div p {
+    font-size: 10px;
+  }
+
+ 
+
+  .navbar-content ul li a {
+    font-size: 14px;
+  }
+
+  .input-and-search-div input {
+    width: 100%;
+  }
+}

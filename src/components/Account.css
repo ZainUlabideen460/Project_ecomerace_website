@@ -1,0 +1,179 @@
+/* General styles */
+.wellcome-text {
+    display: flex;
+    justify-content: end;
+    margin-right: 4rem;
+    margin-top: 1rem;
+}
+
+.wellcome-text span {
+    color: #DB4444;
+}
+
+.main-div-both {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    margin-left: 4rem;
+    margin-top: 5rem;
+}
+
+.main-div-left-side-text {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    width: 100%;
+    max-width: 300px;
+    margin-top: 1rem;
+}
+
+.main-div-left-side-text h2 {
+    font: Poppins;
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.main-edit-profile {
+    width: 100%;
+    max-width: 870px;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    margin-bottom: 4rem;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 2rem;
+    border-radius: 5px;
+}
+
+.main-edit-profile h2 {
+    text-align: start;
+    color: #DB4444;
+    font: Poppins;
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.button-and-text {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.button-and-text:hover {
+    color: #744de0;
+}
+
+.button-and-text button:hover {
+    color: #DB4444;
+}
+
+.button-and-text button {
+    border: none;
+    background-color: white;
+    color: rgb(160, 152, 152);
+}
+
+.input-and-text-main-div {
+    display: flex;
+    gap: 30px;
+    text-align: start;
+}
+
+.input-and-text-main-div h5,
+.div-password h5 {
+    font: Poppins;
+    font-size: 20px;
+    font-weight: 400;
+}
+
+.input-and-text-main-div input {
+    width: 100%;
+    max-width: 330px;
+    height: 50px;
+    background-color: whitesmoke;
+    border: none;
+    border-radius: 5px;
+    padding-left: 10px;
+}
+
+.input-and-text {
+}
+
+.div-password {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    text-align: start;
+}
+
+.div-password input {
+    width: 100%;
+    max-width: 710px;
+    height: 50px;
+    background-color: whitesmoke;
+    border: none;
+    border-radius: 5px;
+    padding-left: 10px;
+}
+
+.last-buttton {
+    display: flex;
+    justify-content: end;
+    margin-right: 10rem;
+    gap: 30px;
+}
+
+.last-buttton button {
+    border: none;
+    background-color: white;
+}
+
+#button2 {
+    background-color: #DB4444;
+    width: 214px;
+    height: 56px;
+    border-radius: 5px;
+    color: white;
+}
+
+/* Responsive styles */
+@media (min-width: 768px) {
+    .main-div-both {
+        flex-direction: row;
+    }
+}
+
+@media (max-width: 767px) {
+    .main-div-both {
+        margin-left: 1rem;
+        margin-right: 1rem;
+    }
+
+    .wellcome-text {
+        justify-content: center;
+        margin-right: 1rem;
+    }
+
+    .main-edit-profile {
+        padding-left: 1rem;
+        padding-right: 1rem;
+    }
+
+    .last-buttton {
+        justify-content: center;
+        margin-right: 0;
+    }
+
+    .div-password input {
+        width: 100%;
+    }
+
+    .input-and-text-main-div {
+        flex-direction: column;
+        gap: 10px;
+    }
+
+    .input-and-text-main-div input {
+        width: 100%;
+    }
+}

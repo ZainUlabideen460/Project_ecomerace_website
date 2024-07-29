@@ -1,0 +1,58 @@
+.main-sign-up-div{
+    width: 1350px;
+    height: 781px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 7rem;
+    margin-top: 4rem;
+}
+.sign-up-img img{
+    border-radius: 5px;
+}
+.signup-text-side{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    text-align: start;
+    margin-top: 7rem;
+}
+.signup-text-side h2{
+    font: Inter;
+    font-size: 36px;
+    font-weight: 500;
+}
+.signup-text-side h5{
+    font:Poppins;
+    font-size: 16px;
+    font-weight: 400;
+}
+.signup-text-side input{
+    width: 370px;
+    height: 32px;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+}
+#create-account{
+    width: 143px;
+    height: 56px;
+    background-color:#DB4444;
+    color: white;
+    border: none;
+    border-radius: 5px;
+}
+.login-froget-button{
+    display: flex;
+    justify-content: space-between;
+}
+.login-froget-button p{
+    color: #DB4444;
+    margin-top: 1rem;
+    font: Poppins;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.signup-text-side p{
+    text-align: center;
+}

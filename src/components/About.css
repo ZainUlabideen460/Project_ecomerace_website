@@ -1,0 +1,181 @@
+/* General styles */
+.home-cntact-link a {
+    text-decoration: none;
+    font-family: Poppins, sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    color: black;
+}
+
+.home-cntact-link {
+    display: flex;
+    align-items: center;
+    margin-left: 9rem;
+    margin-top: 4rem;
+}
+
+#home {
+    color: rgb(158, 137, 137);
+}
+
+.home-cntact-link a:hover {
+    color: rgb(190, 174, 174);
+}
+
+/* Our Story section */
+.main-story-div-and-img {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    width: 90%;
+    max-width: 1250px;
+    justify-content: center;
+    text-align: center;
+    margin: 3rem auto 8rem auto;
+}
+
+@media (min-width: 768px) {
+    .main-story-div-and-img {
+        flex-direction: row;
+        gap: 4rem;
+    }
+}
+
+.story-text-div {
+    width: 100%;
+    max-width: 590px;
+    text-align: start;
+    margin-top: 1rem;
+    margin-right: 1rem;
+}
+
+.story-text-div h2 {
+    font-family: Inter, sans-serif;
+    font-size: 32px;
+    font-weight: 600;
+    margin-bottom: 2rem;
+}
+
+.story-text-div p, .main-dollar-card-div p {
+    font-family: Poppins, sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.main-story-div-and-img img {
+    width: 100%;
+    max-width: 700px;
+    height: auto;
+    border-radius: 5px;
+}
+
+/* Dollar Cards section */
+.main-dollar-div {
+    display: flex;
+    flex-wrap: wrap;
+    width: 90%;
+    max-width: 1170px;
+    justify-content: center;
+    margin: 0 auto 6rem auto;
+    gap: 30px;
+}
+
+.main-dollar-card-div {
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+    flex-direction: column;
+    width: 100%;
+    max-width: 240px;
+    height: 200px;
+    border: 1px solid rgb(209, 203, 203);
+    padding-top: 1rem;
+}
+
+.main-dollar-card-div img {
+    padding-bottom: 5px;
+}
+
+.main-dollar-card-div:hover {
+    background-color: #DB4444;
+    color: white;
+}
+
+/* Swiper section */
+.main-swiper-div {
+    display: flex;
+    justify-content: center;
+    width: 90%;
+    max-width: 1170px;
+    margin: 0 auto 7rem auto;
+}
+
+.main-img-larg {
+    width: 320px;
+    height: 380px;
+    background-color: whitesmoke;
+    border-radius: 3px;
+}
+
+.main-img-larg img {
+    width: 290px;
+    height: 350px;
+    padding-left: 2rem;
+    margin-top: 2rem;
+}
+
+.main-div-card-one-card {
+    width: 320px;
+    height: 500px;
+    display: flex;
+    flex-direction: column;
+    text-align: start;
+}
+
+.main-div-card-one-card h3 {
+    font-family: Inter, sans-serif;
+    font-size: 32px;
+    font-weight: 500;
+}
+
+.main-div-card-one-card p {
+    font-family: Poppins, sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.icone-img {
+    display: flex;
+    gap: 10px;
+    margin-top: 5px;
+}
+
+/* Swiper styles */
+.mySwiper {
+    width: 100%;
+}
+
+.swiper-pagination-bullets {
+    bottom: 10px;
+}
+
+@media (max-width: 768px) {
+    .main-div-card-one-card {
+        width: 100%;
+        height: auto;
+    }
+
+    .main-img-larg {
+        width: 100%;
+        height: auto;
+    }
+
+    .main-img-larg img {
+        width: 100%;
+        height: auto;
+        padding-left: 0;
+        margin-top: 0;
+    }
+}

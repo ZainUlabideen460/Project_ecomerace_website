@@ -1,0 +1,185 @@
+
+
+
+#zzz{
+    max-width: 80%;
+    margin-left: 8rem;
+    height: 2px;
+}
+
+.container {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    padding-left: 10px;
+    padding-right: 6px;
+    margin-bottom: 20px;
+    margin-top: 5px;
+}
+
+.manes-fashion {
+    width: 217px;
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    font-family: Poppins, sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+}
+
+.manes-fashion-select select {
+    border: none;
+    font-family: Poppins, sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+}
+
+#select1, #select2 {
+    margin-bottom: 1.5rem;
+}
+.para-elec{
+   padding-top: 13px;
+}
+.zain{
+    background-color: blue;
+}
+
+.line-spinner {
+    width: 1px;
+    height: 100%;
+    margin-top: -2rem;
+    background-color: #c5bcbc;
+}
+.manes-fashion-select select {
+    padding-right: 5.5rem;
+    
+  }
+  .men-div{
+    
+    margin-top: 0.8rem;
+  }
+  
+.main-spinner {
+    display: flex;
+    flex-wrap: wrap;
+    width: 60%;
+    
+    background-color: black;
+    color: white;
+    margin-top: -20px;
+}
+
+.text-div-main {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    padding-top: 10px;
+}
+
+.text-div-main p {
+    font-family: Poppins, sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    padding-top: 15px;
+}
+
+.up-to-text {
+    font-family: Inter, sans-serif;
+    font-weight: 600;
+    font-size: 40px;
+    width: 250px;
+}
+
+.main-spinner button {
+    border-bottom: 1px solid white;
+}
+
+.arrow-img {
+    padding-top: 2px;
+}
+
+.image-div {
+    padding-top: 5px;
+}
+
+.image-div img {
+    width: 100%;
+}
+
+/* Responsive Styles */
+@media (max-width: 1200px) {
+    .container {
+        flex-direction: column;
+        align-items: center;
+    }
+    .manes-fashion {
+        font-size: 15px;
+    }
+    .manes-fashion-select select {
+        font-size: 15px;
+    }
+}
+
+@media (max-width: 768px) {
+    .container {
+        padding-left: 1rem;
+        padding-right: 1rem;
+    }
+    .main-spinner {
+        width: 100%;
+    }
+    .up-to-text {
+        font-size: 30px;
+        width: auto;
+    }
+}
+
+@media (max-width: 480px) {
+    .manes-fashion {
+        font-size: 14px;
+    }
+    .manes-fashion-select select {
+        font-size: 14px;
+        width: 100%;
+    }
+    .text-div-main p {
+        font-size: 14px;
+    }
+    .up-to-text {
+        font-size: 24px;
+    }
+    .main-spinner {
+        flex-direction: column;
+        align-items: center;
+        margin-top: 2rem;
+    }
+    .manes-fashion-select{
+      margin-bottom: -1.5rem;
+    }
+    .lefft-button-right{
+        display: none;
+    }
+    .main-empty-class-text{
+        margin-bottom: 3rem;
+    }
+    .up-to-text{
+        font-size: 15px;
+    }
+}
+
+@media (max-width: 320px) {
+    .container {
+        padding-left: 0.5rem;
+        padding-right: 0.5rem;
+    }
+    .manes-fashion {
+        align-items: center;
+        text-align: center;
+    }
+    .manes-fashion-select select {
+        width: 100%;
+    }
+    .up-to-text {
+        font-size: 20px;
+    }
+}

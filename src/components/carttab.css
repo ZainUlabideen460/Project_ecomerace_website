@@ -1,0 +1,11 @@
+
+.cart-tab-div-map{
+    width: 400px;
+
+    position: relative;
+    left: -4rem;
+}
+.button-main-div-cart-tab{
+    display: flex;
+    gap: 20px;
+}

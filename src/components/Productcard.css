@@ -1,0 +1,39 @@
+.add-to-card-div {
+
+    position: absolute;
+    top: 200px;
+    width: 270px;
+    height: 50px;
+}
+
+.button-add-to-card {
+    width: 270px;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    padding-top: 15px;
+    color: white;
+    font: Poppins;
+    font-size: 16px;
+    font-weight: 500;
+}
+
+.heart-view-div-icon {
+    cursor: pointer;
+}
+
+.heart-view-div-icon .favorite {
+
+    filter: invert(29%) sepia(82%) saturate(7462%) hue-rotate(338deg) brightness(100%) contrast(115%);
+}
+
+.offer {
+
+    position: absolute;
+    top: 10px;
+    left: 0;
+
+    padding-left: 8px;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}

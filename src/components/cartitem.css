@@ -1,0 +1,145 @@
+.card-main-div-item {
+    display: flex;
+    width: 100%;
+    max-width: 1170px;
+    gap: 40px;
+    justify-content: space-between;
+    margin-bottom: 2rem;
+    margin-left: auto;
+    margin-right: auto;
+    box-shadow: 3px 3px 3px 1px rgb(202, 189, 189);
+    padding: 20px;
+    height: auto;
+    padding-top: 2rem;
+}
+
+.img-and-name {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+}
+
+#negtive-button {
+    transform: rotate(180deg);
+}
+
+.main-div-button-quanitys {
+    width: 72px;
+    height: 44px;
+    border: 1px solid rgb(179, 164, 164);
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    justify-content: center;
+    border-radius: 3px;
+}
+
+.neg-plus-div {
+    display: flex;
+    flex-direction: column;
+    padding-right: 0.5rem;
+}
+
+.plus-div {
+    margin-bottom: -10px;
+}
+
+.quantity-div-n {
+    padding-top: 3px;
+}
+
+/* Media queries for responsiveness */
+@media (max-width: 768px) {
+    .card-main-div-item {
+        max-width: 95%;
+        /* flex-direction: column; */
+        align-items: center;
+        gap: 20px;
+        border-radius: 5px;
+        /* height: 40%; */
+        /* background-color: brown; */
+    }
+
+    .img-and-name {
+        flex-direction: column;
+        align-items: center;
+        gap: 5px;
+    }
+
+    .main-div-button-quanitys {
+        max-width: 40%;
+        justify-content: space-around;
+        /* background-color: brown; */
+        margin-right: 6rem;
+    }
+    
+}
+
+@media (max-width: 500px) {
+    .card-main-div-item {
+        padding: 10px;
+    }
+
+    .img-and-name {
+        gap: 5px;
+    }
+
+    .main-div-button-quanitys {
+        max-width: 90%;
+        padding-right: 0px;
+        /* background-color: brown; */
+    }
+}
+
+@media (max-width: 430px) {
+    .card-main-div-item {
+        /* padding: 5px; */
+        /* max-width: 90%;  */
+        gap: 0px;
+        
+    }
+
+    .img-and-name {
+        gap: 3px;
+        max-width: 30%;
+        /* background-color: blue; */
+    }
+    .img-and-name img{
+        width: 20px;
+        height: 20px;
+    }
+    .img-and-name h3{
+        font-size: 10px;
+        font-weight: 200;
+       
+    }
+    #pri{
+margin-left: -3rem;
+    }
+
+    .main-div-button-quanitys {
+        /* max-width: 100%; */
+        max-width: 30%;
+        gap: 0px;
+        padding: 0px;
+        margin-left: 1rem;
+        /* position: fixed; */
+    }
+}
+
+@media (max-width: 360px) {
+    .card-main-div-item {
+       gap: 0px;
+    }
+    #pri{
+        margin-left: -5rem;
+            }
+
+    .img-and-name {
+        gap: 2px;
+    }
+
+    .main-div-button-quanitys {
+        width: 100%;
+    }
+}

@@ -1,0 +1,50 @@
+
+.countdown-timer {
+  text-align: center;
+  font-family: Arial, sans-serif;
+}
+
+.countdown-heading {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+}
+
+
+.countdown-heading span, .countdown-values span {
+  margin: 0 10px;
+  font-size: 1rem; 
+  color: #000;
+}
+.countdown-heading span{
+  font:Poppins;
+  font-size: 12px;
+  font-weight: 500;
+  
+}
+.countdown-values {
+  font:Inter;
+  font-size: 32px;
+  font-weight: 700;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 17px;
+}
+
+
+#dot-id{
+  padding-left:2px;
+  font-size: 2rem; 
+  color: #d14e1a;
+}
+
+#days{
+  margin-left: 1rem;
+}
+#hours{
+margin-left: 2rem;
+}
+         
